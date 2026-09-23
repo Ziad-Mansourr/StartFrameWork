@@ -8,11 +8,11 @@ export default function Portfolio() {
         <div>
             <div className=' max-w-screen-xl mx-auto'>
                 <div className=" container mx-auto">
-                    <h1 className='uppercase text-4xl font-bold text-gray-700 text-center mt-[145px] '>portfolio component</h1>
+                    <h1 className='uppercase text-4xl font-bold text-gray-700 dark:text-gray-100 text-center mt-[145px] '>portfolio component</h1>
                     <div className="flex justify-center px-12 pt-5">
-                        <div className="border-b-4 me-4 border-gray-700 h-3 w-[100px]"></div>
-                        <i className='fa-solid fa-star text-gray-700'></i>
-                        <div className="border-b-4 ms-4 border-gray-700 h-3 w-[100px]"></div>
+                        <div className="border-b-4 me-4 border-gray-700 dark:border-gray-100 h-3 w-[100px]"></div>
+                        <i className='fa-solid fa-star text-gray-700 dark:text-gray-100'></i>
+                        <div className="border-b-4 ms-4 border-gray-700 dark:border-gray-100 h-3 w-[100px]"></div>
                     </div>
                 </div>
             </div>

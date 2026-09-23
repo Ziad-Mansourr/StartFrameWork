@@ -16,6 +16,9 @@
 .main-color{
   background-color: #1abc9c;
 }
+.dark .main-color{
+  background-color: #064e3b;
+}
 .icon{
   transition: all .5s;
 }

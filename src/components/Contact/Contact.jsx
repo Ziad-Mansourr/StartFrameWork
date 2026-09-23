@@ -21,11 +21,11 @@ export default function Contact() {
     <div>
       <div className=' max-w-screen-xl mx-auto '>
         <div className=" container mx-auto ">
-          <h1 className='uppercase text-4xl font-bold text-gray-700 text-center mt-[145px] '>conatct section</h1>
+          <h1 className='uppercase text-4xl font-bold text-gray-700 dark:text-gray-100 text-center mt-[145px] '>conatct section</h1>
           <div className="flex justify-center px-12 pt-5 mb-20" >
-            <div className="border-b-4 me-4 border-gray-700 h-3 w-[100px]"></div>
-            <i className='fa-solid fa-star text-gray-700'></i>
-            <div className="border-b-4 ms-4 border-gray-700 h-3 w-[100px]"></div>
+            <div className="border-b-4 me-4 border-gray-700 dark:border-gray-100 h-3 w-[100px]"></div>
+            <i className='fa-solid fa-star text-gray-700 dark:text-gray-100'></i>
+            <div className="border-b-4 ms-4 border-gray-700 dark:border-gray-100 h-3 w-[100px]"></div>
           </div>
         </div>
         </div>
@@ -33,19 +33,19 @@ export default function Contact() {
           <div className=" container mx-auto flex flex-col justify-center items-center">
             <div className="flex flex-col w-[60%] mb-6 relative">
              <label htmlFor="userName"  className={count<=0?'text-success mb-2 absolute -top-0 opacity-0 duration-500':'text-success mb-2 absolute -top-6 opacity-1 duration-500'}>userName:</label>
-             <input type="text" id='userName' onInput={checkName} className='w-full shadow-sm border-0 rounded-lg p-4 focus:outline-none focus:ring-0' placeholder='userName'/>
+             <input type="text" id='userName' onInput={checkName} className='w-full shadow-sm border-0 rounded-lg p-4 focus:outline-none focus:ring-0 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400' placeholder='userName'/>
             </div>
             <div className="flex flex-col w-[60%] mb-6 relative">
              <label htmlFor="userAge"  className={count1<=0?'text-success mb-2 absolute -top-0 opacity-0 duration-500':'text-success mb-2 absolute -top-6 opacity-1 duration-500'}>userAge:</label>
-             <input type="text" id='userAge' onInput={checkAge} className='w-full shadow-sm border-0 rounded-lg p-4 focus:outline-none focus:ring-0' placeholder='userAge'/>
+             <input type="text" id='userAge' onInput={checkAge} className='w-full shadow-sm border-0 rounded-lg p-4 focus:outline-none focus:ring-0 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400' placeholder='userAge'/>
             </div>
             <div className="flex flex-col w-[60%] mb-6 relative">
              <label htmlFor="userEmail"  className={count2<=0?'text-success mb-2 absolute -top-0 opacity-0 duration-500':'text-success mb-2 absolute -top-6 opacity-1 duration-500'}>userEmail:</label>
-             <input type="text" id='userEmail' onInput={checkEmail} className='w-full shadow-sm border-0 rounded-lg p-4 focus:outline-none focus:ring-0' placeholder='userEmail'/>
+             <input type="text" id='userEmail' onInput={checkEmail} className='w-full shadow-sm border-0 rounded-lg p-4 focus:outline-none focus:ring-0 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400' placeholder='userEmail'/>
             </div>
             <div className="flex flex-col w-[60%] mb-6 relative">
              <label htmlFor="userPass"  className={count3<=0?'text-success mb-2 absolute -top-0 opacity-0 duration-500':'text-success mb-2 absolute -top-6 opacity-1 duration-500'}>userPassword:</label>
-             <input type="text" id='userPass' onInput={checkPass} className='w-full shadow-sm border-0 rounded-lg p-4 focus:outline-none focus:ring-0' placeholder='userPassword'/>
+             <input type="text" id='userPass' onInput={checkPass} className='w-full shadow-sm border-0 rounded-lg p-4 focus:outline-none focus:ring-0 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400' placeholder='userPassword'/>
             </div>
             <div className=" w-[60%] mb-6">
             <button className='bg-[#1abc9ce6] text-white'>send message</button>
